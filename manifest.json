@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "Netflix Auto Skip Intro",
+  "version": "1.0",
+  "description": "Netflix Auto Skip Intro",
+  "icons": {
+    "16": "resources/skipIntro128.png",
+    "48": "resources/skipIntro128.png",
+    "128": "resources/skipIntro128.png"
+  },
+  "permissions": [
+    "tabs",
+    "activeTab",
+    "storage"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "<all_urls>"
+      ],
+      "js": ["skipper.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "resources/skipIntro16.png",
+      "48": "resources/skipIntro48.png",
+      "128": "resources/skipIntro128.png"
+    },
+    "default_title": "Netflix Auto Skip Intro ",
+    "default_popup": "popup.html"
+  }
+}
