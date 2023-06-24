@@ -6,7 +6,7 @@ Netflix otomatik intro geçmek için oluşturulmuş bir Google Chrome eklentisid
 
 ## Ekran Görüntüleri
 
-![Uygulama Ekran Görüntüsü](https://github.com/kursatmudu//Netflix-Auto-Skip-Chrome-API/resources/1.PNG)
+![Uygulama Ekran Görüntüsü]([https://github.com/kursatmudu//Netflix-Auto-Skip-Chrome-API/resources/1.PNG](https://github.com/kursatmudu/Netflix-Auto-Skip-Chrome-API/blob/main/resources/1.PNG))
   
 ## Geri Bildirim
 
